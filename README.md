@@ -13,6 +13,6 @@ Only tested so far on Mac w/ an Apple M3 Pro. To run, set up repo:
 git clone https://github.com/jasonmeverett/ml-playground.git
 cd ml-playground/
 uv sync --all-extras
-# If committing
 uv run pre-commit install --overwrite
+uv run python -m ipykernel install --prefix .venv --name ml-mps --display-name "Python (ml-mps)"
 ```

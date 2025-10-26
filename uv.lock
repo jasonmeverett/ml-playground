@@ -774,7 +774,7 @@ wheels = [
 ]
 
 [[package]]
-name = "ml"
+name = "ml-playground"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
