@@ -7,4 +7,21 @@ wheels/
 *.egg-info
 
 # Virtual environments
-.venv
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+.jupyterlab/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Test / build artifacts
+.pytest_cache/
+dist/
+build/
+
