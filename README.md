@@ -14,5 +14,4 @@ git clone https://github.com/jasonmeverett/ml-playground.git
 cd ml-playground/
 uv sync --all-extras
 uv run pre-commit install --overwrite
-uv run python -m ipykernel install --prefix .venv --name ml-mps --display-name "Python (ml-mps)"
 ```

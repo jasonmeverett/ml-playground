@@ -25,3 +25,7 @@ Thumbs.db
 dist/
 build/
 
+
+# Data for notebooks
+notebooks/data/
+
